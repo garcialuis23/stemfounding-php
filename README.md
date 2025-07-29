@@ -20,18 +20,18 @@ Este es el proyecto final para el curso de 2DAW, desarrollado por Luis Garcia. E
 
 ## Requisitos
 
-- PHP >= 7.3
+- PHP >= 8.2
 - Composer
-- Laravel >= 8.x
-- MySQL
-- Node.js y npm (para el front-end)
+- Laravel >= 11.x
+- SQLite o MySQL
+- Git
 
 ## Instalación
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/proyecto-final-2daw-LuisGarciaSTEM.git
-   cd proyecto-final-2daw-LuisGarciaSTEM
+   git clone https://github.com/garcialuis23/stemfounding-php.git
+   cd stemfounding-php
    ```
 
 2. Instala las dependencias de PHP:
@@ -39,27 +39,24 @@ Este es el proyecto final para el curso de 2DAW, desarrollado por Luis Garcia. E
    composer install
    ```
 
-3. Instala las dependencias de Node.js:
-   ```bash
-   npm install
-   ```
-
-4. Configura el archivo `.env`:
+3. Configura el archivo `.env`:
    ```bash
    cp .env.example .env
    php artisan key:generate
    ```
 
-5. Configura la base de datos en el archivo `.env` y luego ejecuta las migraciones:
+4. Configura la base de datos en el archivo `.env` y luego ejecuta las migraciones:
    ```bash
-   php artisan migrate
+   php artisan migrate:refresh --seed
    ```
+   **Nota:** `migrate:refresh` recreará todas las tablas y ejecutará los seeders para datos de prueba.
 
-6. Inicia el servidor de desarrollo:
+5. Inicia el servidor de desarrollo:
    ```bash
    php artisan serve
-   npm run dev
    ```
+
+🎉 **¡Listo!** Visita `http://localhost:8000` para ver la aplicación.
 
 ## Uso
 
@@ -83,14 +80,39 @@ Este es el proyecto final para el curso de 2DAW, desarrollado por Luis Garcia. E
 - **DELETE /api/projects/{id}/comments/{index}**: Eliminar un comentario por su índice.
 - **GET /api/users/{id}**: Obtener los datos de un usuario por su ID.
 
-## Licencia
+## 📄 Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está licenciado bajo la **Licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
-## Contribuciones
+## 🤝 Contribuciones
 
-Las contribuciones son bienvenidas. Por favor, abre un issue o envía un pull request para discutir cualquier cambio que desees realizar.
+Las contribuciones son bienvenidas. Para contribuir:
 
-## Contacto
+1. Fork el repositorio
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
 
-Para cualquier consulta, puedes contactarme a través de [mi correo electrónico](mailto:tu-email@example.com).
+## 📞 Contacto
+
+**Luis García**  
+📧 Email: [garciadiazluis23@gmail.com](mailto:garciadiazluis23@gmail.com)  
+🔗 GitHub: [@garcialuis23](https://github.com/garcialuis23)  
+🌐 Proyecto: [STEMFounding](https://github.com/garcialuis23/stemfounding-php)
+
+---
+
+## 🙏 Agradecimientos
+
+- **[Laravel](https://laravel.com)** - Framework PHP excepcional
+- **[Bootstrap](https://getbootstrap.com)** - Framework CSS para interfaces responsivas
+- **[Laravel Sanctum](https://laravel.com/docs/sanctum)** - Sistema de autenticación para APIs
+- **Comunidad de Laravel** - Por el excelente soporte y documentación
+
+---
+
+<div align="center">
+  <strong>🎓 Desarrollado con ❤️ por Luis García para el Proyecto Final 2DAW</strong><br>
+  <em>Plataforma de Crowdfunding STEMFounding</em>
+</div>
