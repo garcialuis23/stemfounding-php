@@ -1,0 +1,38 @@
+// Body
+$body-bg: #FBF5E9; // Fondo principal de la página
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$primary: #A17851;  // Color principal
+$secondary: #8F6E42;  // Segundo color
+$accent: #D9C092;  // Color de acento
+$light: #F2E4C8;  // Color claro
+$dark: #3E2A47;  // Color oscuro
+$marroncito: #412103;  // Marroncito
+
+// Links
+$link-color: $primary;
+$link-hover-color: darken($primary, 10%);
+
+// Backgrounds
+$bg-light: #FBF5E9; // Fondo claro
+$bg-dark: #3E2A47; // Fondo oscuro
+
+// Button Styles
+$btn-primary-bg: $primary;
+$btn-primary-border: $primary;
+$btn-primary-color: $light;
+$btn-primary-hover-bg: darken($primary, 10%);
+$btn-primary-hover-border: darken($primary, 10%);
+$btn-primary-hover-color: $light;
+
+$btn-secondary-bg: $secondary;
+$btn-secondary-border: $secondary;
+$btn-secondary-color: $light;
+$btn-secondary-hover-bg: darken($secondary, 10%);
+$btn-secondary-hover-border: darken($secondary, 10%);
+$btn-secondary-hover-color: $light;

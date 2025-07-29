@@ -1,0 +1,123 @@
+/* Custom CSS */
+.modal.fade .modal-dialog {
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.modal.fade.show .modal-dialog {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.modal.fade .modal-dialog {
+    transform: translateY(-50px);
+    opacity: 0;
+}
+
+.modal-dialog.fade-in {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Variables */
+.bg-light {
+    background-color: #fbf5e9 !important;
+}
+
+.bg-dark {
+    background-color: #3e2a47 !important;
+}
+
+.text-light {
+    color: #f2e4c8 !important;
+}
+
+.text-dark {
+    color: #3e2a47 !important;
+}
+
+.border-accent {
+    border-color: #d9c092 !important;
+}
+
+.btn-primary {
+    background-color: #a17851;
+    border-color: #a17851;
+    color: #f2e4c8;
+}
+
+.btn-primary:hover {
+    background-color: darken(#a17851, 10%);
+    border-color: darken(#a17851, 10%);
+    color: #f2e4c8;
+}
+
+.btn-secondary {
+    background-color: #8f6e42;
+    border-color: #8f6e42;
+    color: #f2e4c8;
+}
+
+.btn-secondary:hover {
+    background-color: darken(#8f6e42, 10%);
+    border-color: darken(#8f6e42, 10%);
+    color: #f2e4c8;
+}
+
+.text-brown {
+    color: #8b4513; /* Cambia este valor por el marrón que prefieras */
+}
+
+/* Paginación */
+.pagination .page-item .page-link {
+    border: 1px solid #ddd;
+    color: #007bff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+.pagination .page-item .page-link:hover {
+    background-color: #f8f9fa;
+    color: #0056b3;
+}
+
+/* Comments Section */
+.comment-card {
+    background-color: #fbf5e9;
+    border: 1px solid #d9c092;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comment-text {
+    font-size: 1rem;
+    color: #3e2a47;
+    margin-bottom: 10px;
+}
+
+.comment-image {
+    margin-top: 10px;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.comment-meta {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+.comment-meta small {
+    display: block;
+}
+
+.comment-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
