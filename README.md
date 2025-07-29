@@ -1,5 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/9Li3lVq0)
-
 # Proyecto Final 2DAW - LuisGarciaSTEM
 
 Este es el proyecto final para el curso de 2DAW, desarrollado por Luis Garcia. El proyecto es una plataforma de crowdfunding.
