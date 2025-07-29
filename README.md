@@ -1,4 +1,4 @@
-# Proyecto Final 2DAW - LuisGarciaSTEM
+# Proyecto stemfounding-php
 
 Este es el proyecto final para el curso de 2DAW, desarrollado por Luis Garcia. El proyecto es una plataforma de crowdfunding.
 
@@ -114,3 +114,7 @@ Las contribuciones son bienvenidas. Para contribuir:
   <strong>🎓 Desarrollado con ❤️ por Luis García para el Proyecto Final 2DAW</strong><br>
   <em>Plataforma de Crowdfunding STEMFounding</em>
 </div>
+
+---
+
+*Este proyecto fue creado para un proyecto de ciberseguridad para mi escuela STEM.*
