@@ -117,4 +117,4 @@ Las contribuciones son bienvenidas. Para contribuir:
 
 ---
 
-*Este proyecto fue creado para un proyecto de ciberseguridad para mi escuela STEM.*
+*Este proyecto fue creado para un proyecto para mi escuela STEM.*
